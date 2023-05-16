@@ -1,0 +1,102 @@
+.first {
+    height: 870px;
+    width: 100%;
+    border: 5px dashed black;
+}
+.head {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+.head > span {
+    color: white;
+    margin: 70px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.head > span:hover {
+    transition: 1s ease-in-out;
+    color: aqua;
+}
+.first > select {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    background-color: #0a2c3b;
+}
+
+
+
+
+
+.second {
+    height: 870px;
+    width: 100%;
+    border: 5px dashed black;
+    background-color: #1e81b0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.item {
+    height: 400px;
+    width: 420px;
+    border-radius: 10px;
+    margin-top: 18px;
+    transform: scale(1);
+    transition: 1s;
+    background-color: #1c759e;
+}
+.item:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    background-color: #2298ce;
+}
+.item > img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+.item > span {
+    font-size: 30px;
+}
+.item > p {
+    margin-left: 15px;
+}
+
+
+
+
+.third {
+    height: 870px;
+    width: 100%;
+    border: 5px dashed black;
+    background-color: #0a2c3b;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.third > h1 {
+    margin-bottom: 200px;
+    font-size: 40px;
+    text-align: center;
+    color: #29b4f5;
+}
+.third > table,td,th {
+    height: 100px;
+    width: 400px;
+    border: 1px solid #2298ce;
+}
+.third > table,th {
+    color: #29b4f5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.third > table,td {
+    color: #2380ac;
+}
+
